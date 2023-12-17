@@ -50,6 +50,6 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: DelidisLoginApp
-        path: ./publish
+        path: ./DelidisLoginApp/publish
 
     
