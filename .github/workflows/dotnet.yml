@@ -52,5 +52,5 @@ jobs:
         name: DelidisLoginApp
         path:
           ./publish
-          ./bin/Debug/net8.0-windows/DataFile.db
+          DelidisLoginApp/bin/Debug/net8.0-windows/DataFile.db
     
