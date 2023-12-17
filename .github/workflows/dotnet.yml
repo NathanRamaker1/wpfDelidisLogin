@@ -43,6 +43,7 @@ jobs:
         dotnet-version: '8.0'
 
     - name: Publish artifact
+      working-directory: ./DelidisLoginApp
       run: dotnet publish -c Release -r win-x64 --self-contained -o ./publish
 
     - name: Upload artifact
