@@ -43,7 +43,7 @@ jobs:
         dotnet-version: '8.0'
 
     - name: Publish artifact
-      run: dotnet publsh -c Release -r win-x64 --self-contained -o ./publish
+      run: dotnet publish -c Release -r win-x64 --self-contained -o ./publish
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
