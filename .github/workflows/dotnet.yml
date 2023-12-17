@@ -26,6 +26,7 @@ jobs:
       run: dotnet restore
 
     - name: Build
+      working-directory: ./DelidisLoginApp
       run: dotnet build --configuration Release
 
   release:
